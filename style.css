@@ -126,6 +126,16 @@ section {
   margin-bottom: 5%;
 }
 
+.of-border {
+  border: none;
+}
+
+.of-border img {
+  margin: -0.5% 2% 0 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .about-bank-navigation ul {
   list-style: none;
   display: -webkit-box;
@@ -140,6 +150,10 @@ section {
 
 .about-bank-navigation ul li {
   padding: 5% 2%;
+}
+
+.about-upload {
+  margin: 2% 0;
 }
 
 .about-bank-navigation ul li a {
@@ -288,4 +302,46 @@ section {
 
 .news-right-cont p {
   padding-left: 6%;
+}
+
+/*location*/
+.main-map {
+  margin-top: 25px;
+}
+
+.map-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs > li > a {
+  border: none;
+  border-radius: 0;
+  background-color: #eee;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: #8845a6;
+  color: #fff;
+}
+
+.nav-tabs > li.active > a {
+  border: none;
+  background-color: #8845a6;
+  color: #fff;
+}
+
+.nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border: none;
+  background-color: #8845a6;
+  color: #fff;
 }
