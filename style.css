@@ -5,13 +5,13 @@ section {
 .fluid-img-banner {
   background: url("http://blogim.uz/storage/banners/May2020/oFhs5HqOi7IUpDPKjNOb.png") no-repeat center center;
   background-size: cover;
-  height: 500px;
+  height: 300px;
 }
 
 .img-banner-cont {
-  margin-top: 12%;
+  margin-top: 4%;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .white-button {

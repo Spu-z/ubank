@@ -1,0 +1,213 @@
+    /* --- Start Navbar Style --- */
+.dropdown-menu .nav-link {
+    color: #091B3A ;
+    padding-left: 4%;
+}
+/* start offcanvas*/
+@media (max-width: 768px) {
+    .offcanvas-collapse {
+        background-color: red;
+        position: fixed;
+        top: 0px;
+        /* Height of navbar */
+        bottom: 0;
+        left: 100%;
+        width: 90%;
+        margin-left: 10%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        z-index: 1000;
+        visibility: hidden;
+        background-color: #F6F6F6;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.3s;
+        transition-property: left, visibility;
+    }
+}
+@media (min-width: 767px) {
+    .show-it {
+        display: flex !important;
+    }
+}
+@media (max-width: 768px) {
+    .hide-it {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) {
+    .offcanvas-collapse {
+        width: 50%;
+        transform: translateX(100%);
+    }
+}
+.offcanvas-collapse.open {
+    left: 0;
+    visibility: visible;
+}
+/*End offcanvas*/
+.ubank-logo img {
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .pb8 {
+        padding-bottom: 8% !important;
+    }
+}
+.for-show-content ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.for-show-content ul li {
+    padding: 0 15px;
+    margin: auto;
+}
+.for-show-content ul a {
+    color: #091B3A;
+}
+.for-nav-link {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0 !important;
+}
+.for-nav-link li:first-child {
+    padding: 3px 16px;
+}
+.for-nav-link li {
+    padding: 8px 16px;
+}
+.nav-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+.for-nav-link li a {
+    color: #091B3A ;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: capitalize !important;
+}
+.bg-main-color {
+    background-color: #f9f9f9;
+}
+/* --- start mobile-nav --- */
+.ubank-logo img {
+    width: 150px;
+}
+.x-colse {
+    position: absolute;
+    display: inline-block;
+    font-size: 60px;
+    top: -1%;
+    left: 7%;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.nav-item .dropdown-menu {
+    background-color: #f9f9f9;
+}
+.for-cont-eye {
+    width: 240px;
+    padding-right: 30%;
+}
+.close-dropdown-icon::after {
+    content: none !important;
+}
+.for-cont-eye p {
+    margin: 5% 0 0 0;
+}
+.for-cont-eye label {
+    font-size: 18px;
+}
+.dropdown-menu {
+    background-color: transparent;
+    margin-top: 60%;
+    border: none;
+    text-align: right;
+}
+.dropdown-menu ul {
+    list-style: none;
+}
+.mobile-nav ul li a {
+    color: #000 !important;
+}
+.mobile-nav ul {
+    width: 80%;
+    margin: 4% 0px 0px 18%;
+}
+.empty-cont {
+    background-color: transparent;
+}
+.empty-cont .for-cont {
+    margin: 0;
+    background-color: transparent;
+    text-align: right;
+}
+.form-check-inline input {
+    visibility: hidden;
+}
+.form-check-inline label {
+    font-size: 22px;
+    font-weight: 600;
+}
+.red-button {
+    display: inline-block;
+    padding: 4px 29px!important;
+    text-align: center;
+    border-radius: 37px!important;
+    transition: all 0.6s;
+    background-color: #F52733;
+    color: #fff;
+    font-size: 14px;
+}
+.fa-bars {
+    color: #091B3A;
+    font-size: 25px;
+}
+.mobile-navbar .nav-item {
+    padding: 2% 0;
+}
+.muve-right {
+    margin-left: 7rem;
+}
+.tgl-btn {
+    float: right;
+    margin-top: 3%;
+}
+.for-show-content .nav-link {
+    font-weight: normal;
+    font-size: 16px !important;
+    padding: 6% 0;
+    margin: auto;
+}
+.logo-lg {
+    margin-top: -7%;
+}
+.eye-zb-cont
+{
+    margin: 160% 0 0 -1150%;
+    padding-right: 70%;
+}
+  /*End Navbar Style*/
+.active-red-border{
+    border-bottom: 2px solid #BE2029;
+    color: #BE2029!important;
+
+}
+.active-white
+{
+    border-bottom: 2px solid #fff;
+    color: #fff!important;
+}
+.active-left-border
+{
+    border-left: 2px solid #BE2029;
+    color: #BE2029!important;
+    padding-left: 10px;
+}
+.active-red
+{
+    color: #BE2029!important;
+}
