@@ -182,6 +182,16 @@ section {
   margin-left: 2%;
 }
 
+@media screen and (max-width: 767px) {
+  .about-bank-navigation2-cont {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 95%;
+    margin-left: 2%;
+  }
+}
+
 .about-bank-navigation2 ul {
   list-style: none;
   padding: 0;
@@ -212,6 +222,9 @@ section {
   .recomend-card p {
     width: 58%;
   }
+  .recomend-card img {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -234,7 +247,6 @@ section {
 }
 
 .recomend-banner {
-  background: url("../img/recomend-baner.png") no-repeat center center;
   background-repeat: no-repeat;
   height: 100%;
   border-radius: 10px;
